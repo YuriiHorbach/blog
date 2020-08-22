@@ -9,6 +9,8 @@ ru:
         body: "Содержание"
         edit: 'Редактировать'
         delete: 'Удалить'
+      edit:
+        choose file: "Выбрать файл"
     errors: 
       messages:
         blank: 'не может быть пустым' 

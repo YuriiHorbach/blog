@@ -1,5 +1,4 @@
 ru:
-
   common:
     errors: "Ошибки"
     back: "Назад"
@@ -9,9 +8,13 @@ ru:
      new:
         title: 'Новая статья'
      edit:
-        title: 'Редактирование статьи'
+       title: 'Редактирование статьи'
+       choose_file: "Выбрать файл"
      form: 
+       choose file: "Выбрать файл"
        submit:  '%{action} статью'
      contacts:
         title: "Контакты"
+
+
         

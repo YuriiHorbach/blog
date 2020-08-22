@@ -18,17 +18,16 @@
 
 	<div class="form-group">
 		<%=f.label :summary%>
-		<%=f.text_area :summary, class: 'form-control'%>
+		<%=f.text_field :summary, class: 'form-control'%>
 	</div>
 
 	<div class="form-group">
-    <%=f.label :body%>
-    <%=f.text_area :body, class: "tinymce", rows: 20, cols: 120, theme: "simple", plugins: ["wordcount", "paste"] %>
-		<%= tinymce %>
+    <%=f.label :body %>
+		<%=f.rich_text_area :body, class: 'form-control'%>
 	</div>
 
 	<div class="form-group">
-		<%=f.file_field :image%>
+    <%=f.file_field :image%>
 	</div>
 
 	<div class="form-group">
@@ -36,4 +35,3 @@
 		<%= link_to t('common.back'), posts_path,  class: 'btn btn-outline-secondary'%>
 	</div>
 <% end %>
-<%=tinymce%>
