@@ -3,6 +3,8 @@ ru:
     errors: "Ошибки"
     back: "Назад"
   posts:
+     edit: 'Редактировать'
+     delete: 'Удалить'  
      index: 
         title: "Статьи"
      new:
@@ -10,6 +12,11 @@ ru:
      edit:
        title: 'Редактирование статьи'
        choose_file: "Выбрать файл"
+       edit: 'Редактировать'
+       delete: 'Удалить'
+     show:
+       edit: 'Редактировать'
+       delete: 'Удалить'  
      form: 
        choose file: "Выбрать файл"
        submit:  '%{action} статью'

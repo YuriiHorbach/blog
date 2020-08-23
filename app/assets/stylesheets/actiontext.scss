@@ -1,12 +1,13 @@
 @import "trix/dist/trix";
 
 .trix-content {
-  float:right;
+  float:left;
+  padding: 0 1em;
   .attachment-gallery {
     > action-text-attachment,
     > .attachment {
       flex: 1 0 33%;
-      padding: 0 0.5em;
+      padding: 0 1em;
       max-width: 33%;
     }
 

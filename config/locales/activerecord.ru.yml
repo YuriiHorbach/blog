@@ -9,8 +9,14 @@ ru:
         body: "Содержание"
         edit: 'Редактировать'
         delete: 'Удалить'
+        all_tags: 'Теги'
       edit:
+        edit: 'Редактировать'
+        delete: 'Удалить'
         choose file: "Выбрать файл"
+      show:
+        edit: 'Редактировать'
+        delete: 'Удалить'
     errors: 
       messages:
         blank: 'не может быть пустым' 
